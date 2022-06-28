@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011a27;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Gentium Plus', serif;
+    color:  #f0810f;
+}
+
+.contenedor {
+    background: #ccc;
+    margin-top: 40px;
+    padding: 40px 20px;
+    text-align: center;
+    width: 500px;
+    
+    min-height: 500px;
+    border: 5px solid #f0810f;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input {
+    padding-left: 10px;
+    width: 80%;
+    font-size: 25px;
+    font-family: 'Gentium Plus', serif;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tarea-asignada {
+
+    font-size: 25px;
+    font-family: 'Gentium Plus', serif;
+    border-radius: 5px;
+
+}
+
+li {
+    
+    width: 90%;
+    justify-content:space-between;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px 20px;
+    padding-left: 10px;
+    box-shadow: 5px 7px 8px 0px rgba(0,0,0,0.75);
+}
+
+
+#btns {
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: fantasy;
+    background-color: #f0810f;
+    font-size:23px;
+   
+    
+}
+#btns:hover{
+    cursor: pointer;
+    background-color: #f0510f;
+}
+
+.delete{
+    border: none;
+    background-color: rgb(253, 98, 98);
+    color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.delete:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.p {
+font-family:'Gentium Plus', serif;
+font-size: 20px;
+color: rgb(143, 109, 109);
+
+}
